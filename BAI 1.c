@@ -1,5 +1,5 @@
-//BAI1
-/*#include <stdio.h>
+
+#include <stdio.h>
 
 int sum(int a, int b) {
     return a + b;
@@ -56,30 +56,5 @@ int main() {
         }
     } while (choice != 6);
     return 0;
-}*/
-/*
-// BAI 2
-#include <stdio.h>
-
-int main() {
-    int numbers[10];
-    int i;
-
-    printf("ENTER NUMBER:\n");
-
-    // Nhập vào 10 số nguyên
-    for (i = 0; i < 10; i++) {
-        printf("NUMBER %d: ", i + 1);
-        scanf("%d", &numbers[i]);
-    }
-
-    printf("DISPLAYIN REVERSE ORDER :\n");
-
-    // Hiển thị các số theo thứ tự ngược
-    for (i = 9; i >= 0; i--) {
-        printf("%d ", numbers[i]);
-    }
-    return 0;
 }
 
-*/
